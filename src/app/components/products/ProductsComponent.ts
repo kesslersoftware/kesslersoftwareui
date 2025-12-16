@@ -9,8 +9,8 @@ import {Component} from '@angular/core';
         <h2 class="heading">Kessler Products</h2>
         <div class="product-grid">
           <div class="product-card">
-            <h3>Delphi</h3>
-            <p>A comprehensive diet & fitness app that helps users to eat better and move more!</p>
+            <h3>improvlab</h3>
+            <p>A tool to help improvisors host shows, Jam, and practice sessions</p>
             <span class="coming-soon">Coming Soon</span>
           </div>
           <div class="product-card">

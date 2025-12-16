@@ -5,6 +5,7 @@ import {AboutComponent} from './components/about/AboutComponent';
 import {ServicesComponent} from './components/services/ServicesComponent';
 import {ProductsComponent} from './components/products/ProductsComponent';
 import {ContactComponent} from './components/contact/ContactComponent';
+import {PrivacyComponent} from './components/privacy/PrivacyComponent';
 
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'privacy', component: PrivacyComponent },
   ]
 export const appConfig: ApplicationConfig = {
   providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes)]
